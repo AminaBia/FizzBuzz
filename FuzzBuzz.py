@@ -2,4 +2,6 @@ import string
 
 
 def FuzzBuzz(n:int)-> string:
-   pass
+   if FuzzBuzz(0):
+     return  0
+
