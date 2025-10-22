@@ -1,8 +1,11 @@
 import string
 
 
+class Fuzz:
+    pass
+
+
 def FuzzBuzz(n:int)-> string:
-   if FuzzBuzz(1):
-     return  1
-   return 0
+   if FuzzBuzz(3):
+     return  Fuzz
 

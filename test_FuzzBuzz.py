@@ -1,7 +1,8 @@
 import pytest
-from FuzzBuzz import FuzzBuzz
+from FuzzBuzz import FuzzBuzz, Fuzz
 
 
-def test_FuzzBuzz_is_1_return_1():
-    assert FuzzBuzz(1) == 1
+def test_FuzzBuzz():
+    assert FuzzBuzz(3) == Fuzz
+
 
